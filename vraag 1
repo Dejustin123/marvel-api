@@ -1,0 +1,285 @@
+
+vraag : 1
+
+https://gateway.marvel.com:443/v1/public/characters/1009187/comics?format=comic&orderBy=focDate&limit=1&ts=666&hash=6ab28be1612ac3f47bd39ffc0c2361a4&apikey=5685b4f645fb86fdc57c2d43960d2281
+
+{
+  "code": 200,
+  "status": "Ok",
+  "copyright": "© 2020 MARVEL",
+  "attributionText": "Data provided by Marvel. © 2020 MARVEL",
+  "attributionHTML": "<a href=\"http://marvel.com\">Data provided by Marvel. © 2020 MARVEL</a>",
+  "etag": "d86e96d74038478db6b77de5cbe2839ae1655253",
+  "data": {
+    "offset": 0,
+    "limit": 1,
+    "total": 538,
+    "count": 1,
+    "results": [
+      {
+        "id": 13229,
+        "digitalId": 31290,
+        "title": "Fantastic Four (1961) #400",
+        "issueNumber": 400,
+        "variantDescription": "",
+        "description": null,
+        "modified": "-0001-11-30T00:00:00-0500",
+        "isbn": "",
+        "upc": "",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 0,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/13229",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/13229/fantastic_four_1961_400?utm_campaign=apiRef&utm_source=5685b4f645fb86fdc57c2d43960d2281"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=31290&utm_campaign=apiRef&utm_source=5685b4f645fb86fdc57c2d43960d2281"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/2121",
+          "name": "Fantastic Four (1961 - 1998)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "1995-05-01T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "-0001-11-30T00:00:00-0500"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2013-09-09T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/f/80/5acce54c6cd76",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/f/80/5acce54c6cd76",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 6,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/13229/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/5823",
+              "name": "Danilo Bulanadi",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/9565",
+              "name": "Tom Defalco",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/261",
+              "name": "Paul Ryan",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1967",
+              "name": "Brad K. Joyce",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/399",
+              "name": "Jim Novak",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1038",
+              "name": "John Kalisz",
+              "role": "colorist"
+            }
+          ],
+          "returned": 6
+        },
+        "characters": {
+          "available": 36,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/13229/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009154",
+              "name": "Annihilus"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010801",
+              "name": "Ant-Man (Scott Lang)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009165",
+              "name": "Avengers"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009184",
+              "name": "Black Bolt"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009187",
+              "name": "Black Panther"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009195",
+              "name": "Blastaar"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009220",
+              "name": "Captain America"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009255",
+              "name": "Crystal"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011142",
+              "name": "Devos"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009281",
+              "name": "Doctor Doom"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009283",
+              "name": "Dragon Man"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009299",
+              "name": "Fantastic Four"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009539",
+              "name": "Franklin Richards"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010799",
+              "name": "Frightful Four"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009321",
+              "name": "Gladiator (Kallark)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009356",
+              "name": "Human Torch"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009366",
+              "name": "Invisible Woman"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009368",
+              "name": "Iron Man"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010896",
+              "name": "Lyja"
+            }
+          ],
+          "returned": 20
+        },
+        "stories": {
+          "available": 12,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/13229/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/13329",
+              "name": "Fantastic Four (1961) #400",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/13330",
+              "name": "[Table of Contents]",
+              "type": "credits"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/13331",
+              "name": "Introduction",
+              "type": "foreword"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/13332",
+              "name": "Even the Watchers Can Die!",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/13333",
+              "name": "Defending a Title",
+              "type": "text article"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/13334",
+              "name": "In Memoriam!",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/13335",
+              "name": "Fantastic Forum",
+              "type": "letters"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/13336",
+              "name": "[Marvel Subscription Form]",
+              "type": "promo"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/13337",
+              "name": "Bullpen Bulletins",
+              "type": "promo"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/13338",
+              "name": "[House Advertisements]",
+              "type": "promo"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/13339",
+              "name": "[Ads]",
+              "type": "ad"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/190478",
+              "name": "story from Fantastic Four (1961) #400",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 12
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/13229/events",
+          "items": [],
+          "returned": 0
+        }
+      }
+    ]
+  }
+}
+
+
